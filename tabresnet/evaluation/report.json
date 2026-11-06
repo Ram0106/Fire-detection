@@ -1,0 +1,411 @@
+{
+  "status": "EVALUATED_INTERNAL_CV_ONLY",
+  "selected_config": {
+    "id": "T4",
+    "hidden": 128,
+    "blocks": 2,
+    "dropout": 0.3,
+    "lr": 0.0005,
+    "weight_decay": 0.0003,
+    "weighted": true,
+    "smoothing": 0.05
+  },
+  "metrics": {
+    "accuracy": 0.8051282051282052,
+    "balanced_accuracy": 0.8169835216302499,
+    "macro_precision": 0.8083962121616097,
+    "macro_recall": 0.8169835216302499,
+    "macro_f1": 0.8120543032743579,
+    "weighted_f1": 0.8042949699923287,
+    "confusion_matrix": [
+      [
+        46,
+        5,
+        4,
+        5
+      ],
+      [
+        5,
+        42,
+        6,
+        0
+      ],
+      [
+        5,
+        6,
+        36,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        33
+      ]
+    ],
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "Industrial Fire",
+        "precision": 0.8214285714285714,
+        "recall": 0.7666666666666667,
+        "f1": 0.7931034482758621,
+        "support": 60
+      },
+      {
+        "class_id": 1,
+        "class_name": "Forest Fire",
+        "precision": 0.7777777777777778,
+        "recall": 0.7924528301886793,
+        "f1": 0.7850467289719626,
+        "support": 53
+      },
+      {
+        "class_id": 2,
+        "class_name": "Agricultural Fire",
+        "precision": 0.7659574468085106,
+        "recall": 0.7659574468085106,
+        "f1": 0.7659574468085106,
+        "support": 47
+      },
+      {
+        "class_id": 3,
+        "class_name": "Persistent / Other",
+        "precision": 0.868421052631579,
+        "recall": 0.9428571428571428,
+        "f1": 0.9041095890410958,
+        "support": 35
+      }
+    ]
+  },
+  "trials": [
+    {
+      "config": {
+        "id": "T1",
+        "hidden": 64,
+        "blocks": 2,
+        "dropout": 0.15,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "weighted": false,
+        "smoothing": 0.0
+      },
+      "metrics": {
+        "accuracy": 0.7948717948717948,
+        "balanced_accuracy": 0.8032481218099444,
+        "macro_precision": 0.7988795221553842,
+        "macro_recall": 0.8032481218099444,
+        "macro_f1": 0.8006819918665903,
+        "weighted_f1": 0.7942969905264182,
+        "confusion_matrix": [
+          [
+            45,
+            5,
+            5,
+            5
+          ],
+          [
+            6,
+            43,
+            4,
+            0
+          ],
+          [
+            4,
+            6,
+            36,
+            1
+          ],
+          [
+            3,
+            1,
+            0,
+            31
+          ]
+        ],
+        "per_class": [
+          {
+            "class_id": 0,
+            "class_name": "Industrial Fire",
+            "precision": 0.7758620689655172,
+            "recall": 0.75,
+            "f1": 0.7627118644067796,
+            "support": 60
+          },
+          {
+            "class_id": 1,
+            "class_name": "Forest Fire",
+            "precision": 0.7818181818181819,
+            "recall": 0.8113207547169812,
+            "f1": 0.7962962962962963,
+            "support": 53
+          },
+          {
+            "class_id": 2,
+            "class_name": "Agricultural Fire",
+            "precision": 0.8,
+            "recall": 0.7659574468085106,
+            "f1": 0.782608695652174,
+            "support": 47
+          },
+          {
+            "class_id": 3,
+            "class_name": "Persistent / Other",
+            "precision": 0.8378378378378378,
+            "recall": 0.8857142857142857,
+            "f1": 0.8611111111111112,
+            "support": 35
+          }
+        ]
+      }
+    },
+    {
+      "config": {
+        "id": "T2",
+        "hidden": 64,
+        "blocks": 2,
+        "dropout": 0.25,
+        "lr": 0.0005,
+        "weight_decay": 0.0001,
+        "weighted": true,
+        "smoothing": 0.05
+      },
+      "metrics": {
+        "accuracy": 0.7846153846153846,
+        "balanced_accuracy": 0.7992162260327655,
+        "macro_precision": 0.7908697571351546,
+        "macro_recall": 0.7992162260327655,
+        "macro_f1": 0.7939854536348626,
+        "weighted_f1": 0.783890808507333,
+        "confusion_matrix": [
+          [
+            44,
+            7,
+            4,
+            5
+          ],
+          [
+            6,
+            40,
+            7,
+            0
+          ],
+          [
+            4,
+            7,
+            36,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            33
+          ]
+        ],
+        "per_class": [
+          {
+            "class_id": 0,
+            "class_name": "Industrial Fire",
+            "precision": 0.8148148148148148,
+            "recall": 0.7333333333333333,
+            "f1": 0.7719298245614035,
+            "support": 60
+          },
+          {
+            "class_id": 1,
+            "class_name": "Forest Fire",
+            "precision": 0.7142857142857143,
+            "recall": 0.7547169811320755,
+            "f1": 0.7339449541284404,
+            "support": 53
+          },
+          {
+            "class_id": 2,
+            "class_name": "Agricultural Fire",
+            "precision": 0.7659574468085106,
+            "recall": 0.7659574468085106,
+            "f1": 0.7659574468085106,
+            "support": 47
+          },
+          {
+            "class_id": 3,
+            "class_name": "Persistent / Other",
+            "precision": 0.868421052631579,
+            "recall": 0.9428571428571428,
+            "f1": 0.9041095890410958,
+            "support": 35
+          }
+        ]
+      }
+    },
+    {
+      "config": {
+        "id": "T3",
+        "hidden": 32,
+        "blocks": 2,
+        "dropout": 0.2,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "weighted": true,
+        "smoothing": 0.05
+      },
+      "metrics": {
+        "accuracy": 0.7846153846153846,
+        "balanced_accuracy": 0.7986659115673569,
+        "macro_precision": 0.7894687085360461,
+        "macro_recall": 0.7986659115673569,
+        "macro_f1": 0.792986772238923,
+        "weighted_f1": 0.7839081760480229,
+        "confusion_matrix": [
+          [
+            45,
+            4,
+            6,
+            5
+          ],
+          [
+            5,
+            39,
+            9,
+            0
+          ],
+          [
+            5,
+            6,
+            36,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            33
+          ]
+        ],
+        "per_class": [
+          {
+            "class_id": 0,
+            "class_name": "Industrial Fire",
+            "precision": 0.8035714285714286,
+            "recall": 0.75,
+            "f1": 0.7758620689655172,
+            "support": 60
+          },
+          {
+            "class_id": 1,
+            "class_name": "Forest Fire",
+            "precision": 0.78,
+            "recall": 0.7358490566037735,
+            "f1": 0.7572815533980582,
+            "support": 53
+          },
+          {
+            "class_id": 2,
+            "class_name": "Agricultural Fire",
+            "precision": 0.7058823529411765,
+            "recall": 0.7659574468085106,
+            "f1": 0.7346938775510204,
+            "support": 47
+          },
+          {
+            "class_id": 3,
+            "class_name": "Persistent / Other",
+            "precision": 0.868421052631579,
+            "recall": 0.9428571428571428,
+            "f1": 0.9041095890410958,
+            "support": 35
+          }
+        ]
+      }
+    },
+    {
+      "config": {
+        "id": "T4",
+        "hidden": 128,
+        "blocks": 2,
+        "dropout": 0.3,
+        "lr": 0.0005,
+        "weight_decay": 0.0003,
+        "weighted": true,
+        "smoothing": 0.05
+      },
+      "metrics": {
+        "accuracy": 0.8051282051282052,
+        "balanced_accuracy": 0.8169835216302499,
+        "macro_precision": 0.8083962121616097,
+        "macro_recall": 0.8169835216302499,
+        "macro_f1": 0.8120543032743579,
+        "weighted_f1": 0.8042949699923287,
+        "confusion_matrix": [
+          [
+            46,
+            5,
+            4,
+            5
+          ],
+          [
+            5,
+            42,
+            6,
+            0
+          ],
+          [
+            5,
+            6,
+            36,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            33
+          ]
+        ],
+        "per_class": [
+          {
+            "class_id": 0,
+            "class_name": "Industrial Fire",
+            "precision": 0.8214285714285714,
+            "recall": 0.7666666666666667,
+            "f1": 0.7931034482758621,
+            "support": 60
+          },
+          {
+            "class_id": 1,
+            "class_name": "Forest Fire",
+            "precision": 0.7777777777777778,
+            "recall": 0.7924528301886793,
+            "f1": 0.7850467289719626,
+            "support": 53
+          },
+          {
+            "class_id": 2,
+            "class_name": "Agricultural Fire",
+            "precision": 0.7659574468085106,
+            "recall": 0.7659574468085106,
+            "f1": 0.7659574468085106,
+            "support": 47
+          },
+          {
+            "class_id": 3,
+            "class_name": "Persistent / Other",
+            "precision": 0.868421052631579,
+            "recall": 0.9428571428571428,
+            "f1": 0.9041095890410958,
+            "support": 35
+          }
+        ]
+      }
+    }
+  ],
+  "seeds": [
+    42,
+    123
+  ],
+  "training_seconds": 105.77587890625,
+  "device": "cuda",
+  "pretraining": "NOT_USED_INCOMPATIBLE_21_OBSERVATION_VS_24_EVENT_FEATURE_SCHEMA",
+  "scientific_limitation": "Physical event/facility independence is unverified; these are not real-world accuracy estimates."
+}

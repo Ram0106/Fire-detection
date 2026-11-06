@@ -1,0 +1,41 @@
+{
+  "configuration": "F3",
+  "feature_count": 24,
+  "features": [
+    "log_hist_count_365d",
+    "log_hist_count_90d",
+    "hist_persistence_ratio",
+    "log_days_since_obs",
+    "gini_seasonal_concentration",
+    "mask_m_hist",
+    "mask_m_gini",
+    "mask_m_days",
+    "bright_ti4",
+    "bright_ti5",
+    "delta_ti4_ti5",
+    "frp",
+    "scan",
+    "track",
+    "mask_m_acute",
+    "acute_lst_hours",
+    "acute_is_solar_night",
+    "night_recurrence_ratio",
+    "day_recurrence_ratio",
+    "day_night_stability",
+    "active_months_count_365d",
+    "inter_observation_regularity",
+    "mask_m_daynight",
+    "mask_m_regularity"
+  ],
+  "fit_preprocessing_within_fold": true,
+  "excluded_shortcuts": [
+    "osm_dist_to_industrial_km",
+    "builtup_surface_pct",
+    "elevation_km",
+    "rbf_forest_biome",
+    "rbf_agri_biome",
+    "catalogue_60_facilities_dist",
+    "r95_spatial_compactness"
+  ],
+  "scope": "historical weak-label internal benchmark"
+}
